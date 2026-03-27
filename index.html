@@ -1,155 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mohd Parvez Shop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Civil Engineering Book - Mohd Parvez</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #f5f5f5;
-        }
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eef2f3;
+}
 
-        header {
-            background: linear-gradient(45deg, #007bff, #00c6ff);
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
+header {
+    background: url('https://i.imgur.com/8Km9tLL.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
 
-        nav {
-            background: #222;
-            text-align: center;
-            padding: 12px;
-        }
+header h1 {
+    font-size: 32px;
+}
 
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+nav {
+    background: #222;
+    text-align: center;
+    padding: 12px;
+}
 
-        nav a:hover {
-            color: yellow;
-        }
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        section {
-            padding: 20px;
-        }
+.container {
+    padding: 20px;
+}
 
-        .card {
-            background: white;
-            margin: 15px;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
 
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
-        }
+.book img {
+    width: 200px;
+}
 
-        .product-box {
-            background: #f9f9f9;
-            padding: 10px;
-            border-radius: 10px;
-            text-align: center;
-        }
+button {
+    padding: 12px 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+    font-size: 16px;
+}
 
-        .product-box img {
-            width: 100%;
-            border-radius: 10px;
-        }
+.whatsapp {
+    background: #25D366;
+}
 
-        button {
-            padding: 12px 20px;
-            background: green;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            margin: 5px;
-        }
-
-        .whatsapp {
-            background: #25D366;
-        }
-
-        footer {
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style>
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Mohd Parvez Shop</h1>
-    <p>Cold Drinks | Milk | Daily Needs</p>
+    <h1>CIVIL ENGINEERING</h1>
+    <p>500 Practical Questions & Answers</p>
+    <p>By Er. Mohd Parvez</p>
 </header>
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">Products</a>
+    <a href="#">Book</a>
     <a href="#">Contact</a>
 </nav>
 
-<section>
-    <div class="card">
-        <h2>Welcome</h2>
-        <p>Best quality milk, cold drinks & daily items available at best price in Chandpur.</p>
-    </div>
+<div class="container">
 
-    <div class="card">
-        <h2>Our Products</h2>
+    <div class="card book">
+        <h2>📘 Buy This Book</h2>
+        <img src="https://i.imgur.com/2yaf2wb.png">
+        <p>Quantity Surveying | Site Execution | Interview Preparation</p>
+        <h3>Price: ₹199</h3>
 
-        <div class="products">
-            <div class="product-box">
-                <img src="https://i.imgur.com/Z6XbK0M.jpg">
-                <p>Milk</p>
-            </div>
-
-            <div class="product-box">
-                <img src="https://i.imgur.com/Wb1qfhK.jpg">
-                <p>Cold Drinks</p>
-            </div>
-
-            <div class="product-box">
-                <img src="https://i.imgur.com/oYiTqum.jpg">
-                <p>Water</p>
-            </div>
-
-            <div class="product-box">
-                <img src="https://i.imgur.com/9A9QZ6F.jpg">
-                <p>Juices</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="card">
-        <h2>Contact Us</h2>
-        <p><b>Owner:</b> Mohd Parvez</p>
-        <p><b>Phone:</b> 8171429763</p>
-        <p><b>Location:</b> Chandpur, Bijnor</p>
-
-        <a href="tel:8171429763">
-            <button>Call Now</button>
+        <a href="upi://pay?pa=8171429763@pthdfc&pn=Mohd%20Parvez&am=199&cu=INR">
+            <button>Pay ₹199</button>
         </a>
 
-        <a href="https://wa.me/918171429763">
-            <button class="whatsapp">WhatsApp Order</button>
+        <a href="https://wa.me/918171429763?text=I%20have%20paid%20₹199%20for%20Civil%20Engineering%20Book">
+            <button class="whatsapp">Send Screenshot</button>
         </a>
     </div>
-</section>
+
+    <div class="card">
+        <h2>About the Book</h2>
+        <p>This book contains 500 important questions & answers covering practical civil engineering concepts, estimation, site work, RCC, and interview preparation.</p>
+    </div>
+
+    <div class="card">
+        <h2>About the Author</h2>
+        <p>Er. Mohd Parvez is a Civil Engineer with experience in construction, renovation, and government projects. He shares knowledge with 22,000+ learners.</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>📞 8171429763</p>
+        <p>📍 Chandpur, Bijnor</p>
+    </div>
+
+</div>
 
 <footer>
-    <p>© 2026 Mohd Parvez Shop | All Rights Reserved</p>
+    <p>© 2026 Mohd Parvez | All Rights Reserved</p>
 </footer>
 
 </body>
